@@ -91,7 +91,7 @@ def text_generator():
 
     # create and print text
     for x in range(number_paragraps):
-        sentence = generate_sentence(heads_freqdict, min_length_paragraps)
+        sentence = generate_paragraph(heads_freqdict, min_length_paragraps)
         print('\n' + sentence)
 
 
